@@ -1,0 +1,48 @@
+form ion-input {
+    width: 200px;
+    --margin-bottom: 10px;
+}
+
+form ion-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #3171e0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form a {
+    text-decoration: none;
+}
+
+// BUTTONS
+#signIn {
+    // margin-top: 10px;
+    width: 100px;
+    --background: #00e14b;
+    border-radius: 0;
+
+}
+
+#signUp {
+    width: 100px;
+    --background: #667B97;
+    border-radius: 0;
+}
+
+.form-input_icons {
+    display: flex;
+    align-items: center;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
