@@ -9,6 +9,10 @@ form ion-icon {
     color: #3171e0;
 }
 
+form ion-item {
+    border-bottom: 1px solid #3171e0;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -20,14 +24,14 @@ form a {
 }
 
 #signIn {
-    width: 100px;
+    width: 150px;
     --background: #00e14b;
     border-radius: 0;
 
 }
 
 #signUp {
-    width: 100px;
+    width: 150px;
     --background: #667B97;
     border-radius: 0;
 }
