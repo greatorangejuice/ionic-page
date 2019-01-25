@@ -16,7 +16,7 @@ form ion-input:focus {
 }
 
 form ion-button {
-    width: var(--home-button-width, 105px);
+    width: var(--home-button-width, 105px); // delete variables!
     height: var(--home-button-height, 30px);
     --border-radius: 3px;
     font-size: 9pt;
@@ -53,10 +53,11 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    // justify-content:center; Maybe! And try delete from logo and other elems.
 }
 
 .page-logo {
-    margin-bottom: 3%;
+    margin-bottom: 3%; // ask about margins! Костыли или нет?
     margin-top: 5%;
     display: flex;
     justify-content: center;
@@ -106,7 +107,7 @@ p {
     //     font-size: 12pt;
     // }
 // }
-@media only screen and (min-width : 375px) and (max-width : 812px) {
+@media only screen and (min-width : 375px) and (max-width : 812px) {  //What media quaries i need to use? 3 part!
     .page-logo {
         margin-bottom: 7%;
         margin-top: 20%;
