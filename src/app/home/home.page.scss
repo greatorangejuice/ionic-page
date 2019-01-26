@@ -1,39 +1,39 @@
+// *{
+//     --highlight-color-focused: none;
+//     --border-color: #3a7fe3;
+// }
+form {
+    height: 50%;
+}
+
 form ion-icon {
     font-size: 20px;
     margin-right: 10px;
-    color: var(--home-icon-color, #3171e0);
+    color:  #3a7fe3;
 }
 
 form ion-input {
-    width: 200px;
+    
+    width: 60%;
     --margin-bottom: 10px;
-    border: 0;
-}
-
-form ion-input:focus {
-    outline: 0;
-    outline-offset: 0;
+    border-bottom: 0;
+    --border-color: #3a7fe3;
+    
+    
 }
 
 form ion-button {
-    width: var(--home-button-width, 105px); // delete variables!
-    height: var(--home-button-height, 30px);
+    width: 35vh;
+    height: 5.5vh;
     --border-radius: 3px;
     font-size: 9pt;
 }
 
 form ion-item {
-    border-bottom: 1px solid var(--home-icon-color, #3171e0);
+    // border-bottom: 1px solid #3a7fe3;
+    --border-color: #3a7fe3;
+    --highlight-color-focused: none;
 
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(white, #e9ecf1);
-    width: 100%;
-    height: 100%;
 }
 
 form a {
@@ -41,7 +41,7 @@ form a {
 }
 
 p {
-    font-size: 9pt;
+    font-size: 2vh;
 }
 
 .page-button_signIn {
@@ -56,21 +56,14 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    height: 100%;
-}
-
-.page-logo {
-    width: 65%;
-    height: 25%;
-    margin-bottom: 3%;
-    align-items: center;
-    // justify-content:center; Maybe! And try delete from logo and other elems.
+    margin: 30px;
 }
 
 .page-logo {
     margin-bottom: 3%; // ask about margins! Костыли или нет?
     margin-top: 5%;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -84,7 +77,14 @@ p {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    width: 300px;
+    width: 40vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
 }
 
 // @media only screen and (min-width : 1224px) {
