@@ -2,59 +2,17 @@ ion-content {
     --background: linear-gradient(white, #edeff2);
 }
 
-form ion-icon {
-    font-size: 20px; 
+ion-icon {
+    font-size: 20px;
     padding-right: 10px;
-    color:  #3a7fe3;
+    color: #3a7fe3;
 }
 
-form ion-button {
-    width: 79%;            //////////////////////////HERE!
-    height: 5.5vh;
-    --border-radius: 3px;
-    font-size: 1.8vh;       
-}
-
-form ion-item {
+ion-item {
     --border-color: #3a7fe3;
     --highlight-color-focused: none;
     --background: transparent;
     --padding-start: 0;
-  
-}
-
-ion-input {
-    --font-size: 3vh;
-}
-
-form a {
-    text-decoration: none;
-}
-
-p {
-    font-size: 2vh;
-}
-
-.page-button_signIn {
-    --background: #00e14b;
-}
-
-.page-button_signUp {
-    --background: #667B97;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-
-.page-logo {
-    margin-top: 5%;
-    margin-bottom: 3%; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .form-input_icons {
@@ -67,23 +25,50 @@ p {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    width: 40vh; ////////////////////////// HERE
+    width: 30vh;
 }
 
-.buttons {
+ion-button {
+    width: 123%;
+    height: 5.5vh;
+    --border-radius: 3px;
+    font-size: 1.8vh;
+}
+
+.page-button_signIn {
+    --background: #00e14b;
+}
+
+.page-button_signUp {
+    --background: #667B97;
+}
+
+.page-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
-  
 }
 
-.form-bottom_line {
-    // position: relative;
-    background: black;
-    border-radius: 30px;
-    width: 100px;
-    height: 5px;
-    bottom: 5px;
+form a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 2vh;
+}
+
+.page-logo {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
@@ -91,42 +76,22 @@ footer {
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
     background: #edeff2;
-
 }
 
-
-@media only screen and (min-height: 1024px) {
-
-    .form-input {
-        margin-bottom: 30px;
-        width: 30vh; ////////////////////////// HERE
-    }
-
-    form ion-button {
-  
-    }
-
-    .page-button_signIn {
-        margin-top: 25px;
-    }
-    
-    .page-button_signUp {
-        margin-bottom: 30px; 
-    }
-    
-    form ion-input {
-        --font-size: 5vh;
-    }
-    
-    // .form-input {
-    //     width: 50vh;
-    // }
-
-    // form ion-button {
-    //     font-size: 14pt;
-    // }
+.footer-bottom_line {
+    background: black;
+    border-radius: 30px;
+    width: 100px;
+    height: 5px;
+    bottom: 5px;
 }
 
-// Разобраться с медиа-запросами и доделать линию!
+@media only screen and (min-device-width : 768px) {
+
+    .form-bottom_line {
+        width: 150px;
+    }
+
+}
