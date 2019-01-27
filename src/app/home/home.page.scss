@@ -12,13 +12,19 @@ form ion-button {
     width: 79%;            //////////////////////////HERE!
     height: 5.5vh;
     --border-radius: 3px;
-    font-size: 9pt;
+    font-size: 1.8vh;       
 }
 
 form ion-item {
     --border-color: #3a7fe3;
     --highlight-color-focused: none;
     --background: transparent;
+    --padding-start: 0;
+  
+}
+
+ion-input {
+    --font-size: 3vh;
 }
 
 form a {
@@ -44,8 +50,8 @@ p {
 }
 
 .page-logo {
-    margin-bottom: 3%; // ask about margins! Костыли или нет?
     margin-top: 5%;
+    margin-bottom: 3%; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +81,45 @@ p {
     // position: relative;
     background: black;
     border-radius: 30px;
-    width: 10vh;
+    width: 100px;
     height: 5px;
     bottom: 5px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 10px; 
+    background: #edeff2;
 
-@media only screen and (min-width: 768px) {
+}
+
+
+@media only screen and (min-height: 1024px) {
+
+    .form-input {
+        margin-bottom: 30px;
+        width: 30vh; ////////////////////////// HERE
+    }
+
+    form ion-button {
+  
+    }
+
+    .page-button_signIn {
+        margin-top: 25px;
+    }
+    
+    .page-button_signUp {
+        margin-bottom: 30px; 
+    }
+    
+    form ion-input {
+        --font-size: 5vh;
+    }
+    
     // .form-input {
     //     width: 50vh;
     // }
